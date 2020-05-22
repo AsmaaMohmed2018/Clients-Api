@@ -7,15 +7,12 @@
 - express v4.17.1
 - mongoose v5.7.6
 
-## Project setup
-```
-- npm install
-```
-
-## Compiles and hot-reloads for development
+## Project setup &  Compiles and hot-reloads for development
 - open mongo server on 127.0.0.1 (local host) on port 27017
+- create clients-db mondo databse of one collection clients or run dumped database 
 - cd project folder & open it with vs code (text editor)
-- type the following in the terminalto start node app server & be ready for requests :
+- type ```npm install ``` to download all dependencies modules
+- type the following in the terminal to start node app server & be ready for requests :
 ```
 nodemon index.js
 ```

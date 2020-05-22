@@ -49,15 +49,15 @@ response:
 success
 ```
 
-### method : put , Route : 'http://localhost:3000/clients/Mohmed'
+### method : put , Route : 'http://localhost:3000/clients/Mohmed(id)'
 body : ```json{"name":"lila"}```
-update client which name = 'lila',
+update client which name = 'Mohmed' with name =''lila,
  response: 
  ```json
 success
 ```
 
-### method : delete , Route : 'http://localhost:3000/clients/Mohmed'
+### method : delete , Route : 'http://localhost:3000/clients/Mariam(id)'
 body : ```json{"name":"mariam"}```
 delete client which name = 'mariam',
  response: 
